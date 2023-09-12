@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap'); */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +10,7 @@
 
 body {
     background: #222;
-    font-family: consolas;
+    font-family: 'VT323', monospace;    
 }
 
 .tic-tac-toe {
@@ -16,15 +20,17 @@ body {
 }
 .tic-tac-toe h1 {
     color: #eee;
+    font-size: 3em;
 }
 
 .tic-tac-toe button {
+    font-family: 'Poppins', sans-serif;
     padding: 8px 12px;
     margin: 25px;
     background: transparent;
     border: 2px solid #eee;
     color: #eee;
-    width: 100px;
+    width: 125px;
     border-radius: 5px;
     transition: 0.2s;
     font-weight: bold;
@@ -32,7 +38,7 @@ body {
 }
 
 .tic-tac-toe button:hover {
-    background: #eee;
+    background: #49ffea;
     color: #222;
 }
 .tic-tac-toe .game {
@@ -128,7 +134,7 @@ body {
 .winner .win {
     margin: 0 auto;
     width: fit-content;
-    border: 2px solid #eee;
+    border: 2px solid #f9abff;
     border-radius: 10px;
     display: flex;
     gap: 15px;

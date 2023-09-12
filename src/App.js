@@ -64,7 +64,7 @@ function App() {
 
     return (
         <div className="tic-tac-toe">
-            <h1> TIC-TAC-TOE </h1>
+            <h1> Tic-Tac-Toe Game </h1>
             <Button resetGame={resetGame} />
             <div className="game">
                 {Array.from("012345678").map((ind) => (
